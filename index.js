@@ -114,4 +114,7 @@ define(function() {
         return _crc32.apply(null, arguments) >>> 0;
     };
 
+    // Return the crc value
+    return crc32;
+
 });
